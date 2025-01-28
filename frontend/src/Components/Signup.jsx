@@ -22,7 +22,7 @@ function Signup()
 
     function adduser()
     {
-        var striff=axios.post("https://login-full-stack-bdcx.onrender.com/adduser",{"usernew":newuser,"passnew":newpass})
+        var striff=axios.post("https://login-server-hn04.onrender.com/adduser",{"usernew":newuser,"passnew":newpass})
         striff.then((data)=>{
             console.log(data)
             alert("New user has been added...")
