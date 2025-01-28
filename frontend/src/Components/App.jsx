@@ -30,7 +30,7 @@ function App(props)
 
     function clickme()
     {
-        var logged=axios.post("https://login-full-stack-1.onrender.com",{"username":user,"password":pass})
+        var logged=axios.post("https://login-server-5n4f.onrender.com",{"username":user,"password":pass})
         logged.then((data)=>{
             if(data.data==true)
             {
