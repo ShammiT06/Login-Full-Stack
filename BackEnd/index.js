@@ -32,7 +32,7 @@ data.post("/adduser",(req,res)=>{
         pass:epass
 
     })
-    res.send(true)
+    
 })
 
 
